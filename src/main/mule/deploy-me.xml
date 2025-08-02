@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<flow name="deploy-me" doc:id="762b42d8-b6db-4b93-bec3-53cd7f92906d" >
+		<scheduler doc:name="Scheduler" doc:id="bc3196df-116c-490f-9915-67a160f09882" >
+			<scheduling-strategy >
+				<fixed-frequency frequency="1" timeUnit="HOURS"/>
+			</scheduling-strategy>
+		</scheduler>
+		<logger level="INFO" doc:name="Log Msg" doc:id="34bf9bed-001b-4ee5-b135-71e69586cf91" message="Welcome to the world of  automation."/>
+	</flow>
+</mule>
