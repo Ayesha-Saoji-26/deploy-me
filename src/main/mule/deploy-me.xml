@@ -9,6 +9,6 @@
 				<fixed-frequency frequency="1" timeUnit="HOURS"/>
 			</scheduling-strategy>
 		</scheduler>
-		<logger level="INFO" doc:name="Log Msg" doc:id="34bf9bed-001b-4ee5-b135-71e69586cf91" message="Welcome to the world of automation. Hope you have a Nice Day!!"/>
+		<logger level="INFO" doc:name="Log Msg" doc:id="34bf9bed-001b-4ee5-b135-71e69586cf91" message="Hey, Welcome to the world of automation. Hope you have a Nice Day!!"/>
 	</flow>
 </mule>
