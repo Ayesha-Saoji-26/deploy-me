@@ -21,9 +21,9 @@ jobs:
         env:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
-          app.runtime: 4.9.7-java17 
-          cloudhub.application.name: deploy-me  
+          appRuntime": 4.9.7-java17 
+          cloudhubApplicationName: deploy-me
           environment: Sandbox  
-          region: us-east-1  
+          region: us-east-1
           workers: 1  
           workerType: MICRO 
