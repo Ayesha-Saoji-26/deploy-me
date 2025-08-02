@@ -32,10 +32,10 @@
 				 <configuration>
 			   		<cloudHubDeployment>
 					      <uri>https://anypoint.mulesoft.com</uri>
-					      <muleVersion>${app.runtime}</muleVersion>
+					      <muleVersion>${appRuntime}</muleVersion>
 					      <username>${username}</username>
 					      <password>${password}</password>
-					      <applicationName>${cloudhub.application.name}</applicationName>
+					      <applicationName>${cloudhubApplicationName}</applicationName>
 					      <environment>${environment}</environment>
 					      <region>${region}</region>
 					      <workers>${workers}</workers>
