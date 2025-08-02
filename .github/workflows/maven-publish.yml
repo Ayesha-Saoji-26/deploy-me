@@ -21,7 +21,7 @@ jobs:
         env:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
-          appRuntime": 4.9.7-java17 
+          appRuntime: 4.9.7-java17 
           cloudhubApplicationName: deploy-me
           environment: Sandbox  
           region: us-east-1
